@@ -1,0 +1,209 @@
+/* Later adding custom font*/
+@font-face {
+  font-family: 'biker';
+  src: url('Fonts/Biker.ttf');
+}
+@font-face {
+  font-family: 'vintage';
+  src: url('Fonts/Vintage.ttf');
+}
+
+h1, h3{
+  font-family: 'vintage';
+  font-size: 70px;
+  color: black;
+}
+h4{
+  font-family: 'biker';
+  font-size: 10px;
+  color: #f3c300;
+  margin-top: -10px;
+  text-align: right;
+}
+h5{
+  font-family: 'biker';
+  font-size: 80px;
+  color: black;
+  margin-top: -20px;
+  margin-bottom: 80px;
+  padding: 0;
+}
+
+p{
+  font-family: 'biker';
+  font-weight: bold;
+}
+
+.buttonContain{
+display: flex;
+flex-direction: row;
+margin-top: -70px;
+}
+button{
+  color: #f3c300;
+  background: black;
+  font-family: 'biker';
+  font-size: 40px;
+  height: 45px;
+  width: 140px;
+  border-radius: 12px;
+  align-items: center;
+}
+
+*{
+  text-decoration: none;
+  color: inherit;
+}
+
+.navBar {
+  font-family: 'biker';
+  font-weight: bold;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: black;
+color: #f3c300;
+font-size: 30px;
+height: 10vh;
+width: 100vw;
+}
+
+.homePage{
+color: whitesmoke;
+display: flex;
+flex-direction: column;
+background: url("Images/AtlantaHD.png") fixed;
+height: 100vh;
+width: 100vw;
+align-items: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+.cityPage{
+display: flex;
+flex-direction: column;
+background: url("Images/Background1.png") fixed;
+height: 100vh;
+width: 100vw;
+align-items: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+color: #f3c300;
+}
+.cityImg{
+background: url("Images/skyline.jpg");
+background-size: 100% 100%;
+margin-top: -40px;
+height: 50vh;
+width: 60vw;
+}
+.cityList{
+color: #f3c300;
+font-size: 30px;
+background: black;
+border: solid whitesmoke 5px;
+text-align: center;
+border-radius: 12px;
+opacity: .7;
+width: 60vw;
+}
+.eventsPage{
+display: flex;
+flex-direction: column;
+background: url("Images/CityBackground.png") fixed center black;
+height: 100vh;
+width: 100vw;
+align-items: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+color: black;
+font-family: 'biker';
+font-size: 20px;
+}
+.eventWeatherMap{
+  display: flex;
+  flex-direction: row;
+}
+.eventsImg{
+  background: url("Images/AtlantaMap.png") black;
+background-size: 100% 100%;
+margin-top: -90px;
+height: 500px;
+width: 51vw;
+}
+.eventsList{
+  color: #f3c300;
+  font-size: 20px;
+  background: black;
+  border: solid #f3c300 3px;
+  text-align: center;
+  /* border-radius: 12px; */
+  opacity: .7;
+  width: 60vw;
+  /* margin-top: -20px; */
+}
+.singleCity{
+  background: url("Images/drone.jpg") fixed;
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  background-repeat: no-repeat;
+  color: #f3c300;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-link {
+  color: #f3c300;
+}
+
+.eventsLink{
+  text-align: center;
+  font-family: 'biker';
+  font-size: 80px;
+  margin-top: -70px;
+  height: 100px;
+  width: 500px;
+  background: url('Images/downtown.jpg') fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: black solid;
+}
+
+
+.singleEvent{
+  background: url("Images/bikenight.jpg") fixed;
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  background-repeat: no-repeat;
+  color: #f3c300;
+  display: flex;
+  flex-direction: column;
+}
+
+.singleEventList{
+  font-family: 'vintage';
+  color: #f3c300;
+  font-size: 60px;
+  background: black;
+  border: solid #f3c300 3px;
+  text-align: center;
+  align-content: center;
+  border-radius: 12px;
+  opacity: .7;
+  width: 60vw;
+  height: 40vh;
+}
+
+.singleEventWeather{
+  font-family: 'biker';
+  font-size: 70px;
+}
